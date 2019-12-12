@@ -33,9 +33,11 @@ Everything about the Learnbot Project #NaijaHacks2019
 # Top-level directory layout
 
     .
-    ├── data                    # GraphQl files (alternatively `graphql` or `server`)
-    ├── public                  # Compiled files (alternatively `dist`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── mockups                    # Design files (alternatively `graphql` or `server`)
+    ├── plugins                    # Plugins files (alternatively `dist`)
+    ├── themes                     # Source files (alternatively `lib` or `app`)
+    ├── uploads                    # Images, favicons and icons
+    ├── database.sql               # DB of test and installation data
     └── README.md   
 
 
@@ -44,6 +46,16 @@ Everything about the Learnbot Project #NaijaHacks2019
 ### Clone the repository 
 
 ```
-git clone https://github.com/Ahmzyjazzy/naijahacks-lazyload.git
+git clone https://github.com/Isaac-jay/naijahacks-learnbot.git
+
+install XAMPP, WAMP, MAMP or any php server
+
+install Wordpress
+
+copy the plugins, themes and uploads folder to wp-content folder
+
+import the database.sql into mysql using phpmyadmin
+
+login  to your wordpress installation
 ```
 *will be updated soon*
